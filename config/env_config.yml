@@ -1,0 +1,18 @@
+Online:
+  user_A:
+    host: http://note-api.wps.cn
+    sid: V02S6-yF8N625WVPNYEnrDjKp44Ae2M00a8127ac001408f1f3
+    user_id: 336130547
+  user_B:
+    host: http://note-api.wps.cn
+    sid: V02SWrCnfpEanXVGuv83WSzaNTLGZC400aff375900633291c0
+    user_id: 1664258496
+Test:
+  user_A:
+    host: http://note-api.wps.cn
+    sid: V02S6-yF8N625WVPNYEnrDjKp44Ae2M00a8127ac001408f1f3
+    user_id: 336130547
+  user_B:
+    host: http://note-api.wps.cn
+    sid: V02S6-yF8N625WVPNYEnrDjKp44Ae2M00a8127ac001408f1f3
+    user_id: 336130547

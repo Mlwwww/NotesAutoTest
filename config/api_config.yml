@@ -1,0 +1,14 @@
+# 获取首页便签
+get_home_notes:
+  path: /v3/notesvr/user/336130547/home/startindex/0/rows/50/notes
+  method: GET
+  required:
+    - user_id
+    - startindex
+    - rows
+# 删除便签
+delete_note:
+  path: /v3/notesvr/delete
+  method: POST
+  required:
+    - noteId

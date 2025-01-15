@@ -1,0 +1,338 @@
+[2024-12-10 15:42:27] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/v3/notesvr/user/336130547/home/startindex/0/rows/50/notes的Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 15:42:27] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/v3/notesvr/web/getnotes/remind的Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 15:42:27] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/v3/notesvr/get/notegroup的Response{
+  "noteGroups": [
+    {
+      "userId": "336130547",
+      "groupId": "d24f01a3b8492fed6aadca03c3e49277",
+      "groupName": "test",
+      "order": 0,
+      "valid": 1,
+      "updateTime": 1733810764309
+    }
+  ],
+  "requestTime": 1733816547519
+} 
+[2024-12-10 15:42:27] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/notesvr/web/getnotes/group的Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 15:42:27] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/notesvr/cleanrecyclebin的Response{
+  "responseTime": 18
+} 
+[2024-12-10 16:12:38] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/v3/notesvr/user/336130547/home/startindex/0/rows/50/notes的Response{} 
+[2024-12-10 16:12:38] [INFO] [base_request.py]/[line: 21]/[send] http://note-api.wps.cn/v3/notesvr/user/336130547/home/startindex/0/rows/50/notes的Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 16:12:38] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/v3/notesvr/web/getnotes/remind的Response{
+  "json": {
+    "startindex": 0,
+    "rows": 300,
+    "remindStartTime": 1732982400000,
+    "remindEndTime": 1735660800000
+  }
+} 
+[2024-12-10 16:12:38] [INFO] [base_request.py]/[line: 21]/[send] http://note-api.wps.cn/v3/notesvr/web/getnotes/remind的Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 16:12:38] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/v3/notesvr/get/notegroup的Response{
+  "json": {
+    "excludeInValid": true,
+    "lastRequestTime": 0
+  }
+} 
+[2024-12-10 16:12:38] [INFO] [base_request.py]/[line: 21]/[send] http://note-api.wps.cn/v3/notesvr/get/notegroup的Response{
+  "noteGroups": [
+    {
+      "userId": "336130547",
+      "groupId": "d24f01a3b8492fed6aadca03c3e49277",
+      "groupName": "test",
+      "order": 0,
+      "valid": 1,
+      "updateTime": 1733810764309
+    }
+  ],
+  "requestTime": 1733818358797
+} 
+[2024-12-10 16:12:38] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/notesvr/web/getnotes/group的Response{
+  "json": {
+    "groupId": "d24f01a3b8492fed6aadca03c3e49277",
+    "rows": 50,
+    "startIndex": 0
+  }
+} 
+[2024-12-10 16:12:38] [INFO] [base_request.py]/[line: 21]/[send] http://note-api.wps.cn/notesvr/web/getnotes/group的Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 16:12:38] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/notesvr/cleanrecyclebin的Response{
+  "json": {
+    "noteIds": [
+      "-1"
+    ]
+  }
+} 
+[2024-12-10 16:12:38] [INFO] [base_request.py]/[line: 21]/[send] http://note-api.wps.cn/notesvr/cleanrecyclebin的Response{
+  "responseTime": 21
+} 
+[2024-12-10 16:13:23] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/v3/notesvr/set/noteinfo的参数{
+  "json": {
+    "noteId": "1733818403659",
+    "groupId": "d24f01a3b8492fed6aadca03c3e49277",
+    "star": 0
+  }
+} 
+[2024-12-10 16:13:23] [INFO] [base_request.py]/[line: 21]/[send] http://note-api.wps.cn/v3/notesvr/set/noteinfo的Response{
+  "responseTime": 34,
+  "infoVersion": 1,
+  "infoUpdateTime": 1733818403997
+} 
+[2024-12-10 16:13:23] [INFO] [base_request.py]/[line: 20]/[send] http://note-api.wps.cn/v3/notesvr/set/notecontent的参数{
+  "json": {
+    "noteId": "1733818403659",
+    "title": "test",
+    "summary": "test",
+    "body": "test",
+    "localContentVersion": 1,
+    "BodyType": 0
+  }
+} 
+[2024-12-10 16:13:23] [INFO] [base_request.py]/[line: 21]/[send] http://note-api.wps.cn/v3/notesvr/set/notecontent的Response{
+  "responseTime": 25,
+  "contentVersion": 1,
+  "contentUpdateTime": 1733818404026
+} 
+[2024-12-10 16:16:26] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/v3/notesvr/user/336130547/home/startindex/0/rows/50/notes 
+[2024-12-10 16:16:26] [INFO] [base_request.py]/[line: 21]/[send] 请求参数{} 
+[2024-12-10 16:16:26] [INFO] [base_request.py]/[line: 22]/[send] Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 16:16:26] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/v3/notesvr/web/getnotes/remind 
+[2024-12-10 16:16:26] [INFO] [base_request.py]/[line: 21]/[send] 请求参数{
+  "json": {
+    "startindex": 0,
+    "rows": 300,
+    "remindStartTime": 1732982400000,
+    "remindEndTime": 1735660800000
+  }
+} 
+[2024-12-10 16:16:26] [INFO] [base_request.py]/[line: 22]/[send] Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/v3/notesvr/get/notegroup 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 21]/[send] 请求参数{
+  "json": {
+    "excludeInValid": true,
+    "lastRequestTime": 0
+  }
+} 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 22]/[send] Response{
+  "noteGroups": [
+    {
+      "userId": "336130547",
+      "groupId": "d24f01a3b8492fed6aadca03c3e49277",
+      "groupName": "test",
+      "order": 0,
+      "valid": 1,
+      "updateTime": 1733810764309
+    }
+  ],
+  "requestTime": 1733818587314
+} 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/notesvr/web/getnotes/group 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 21]/[send] 请求参数{
+  "json": {
+    "groupId": "d24f01a3b8492fed6aadca03c3e49277",
+    "rows": 50,
+    "startIndex": 0
+  }
+} 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 22]/[send] Response{
+  "responseTime": 0,
+  "webNotes": [
+    {
+      "noteId": "1733818403659",
+      "createTime": 1733818403997,
+      "star": 0,
+      "remindTime": 0,
+      "remindType": 0,
+      "infoVersion": 1,
+      "infoUpdateTime": 1733818403997,
+      "groupId": "d24f01a3b8492fed6aadca03c3e49277",
+      "title": "test",
+      "summary": "test",
+      "thumbnail": null,
+      "contentVersion": 1,
+      "contentUpdateTime": 1733818404026
+    }
+  ]
+} 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/notesvr/delete 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 21]/[send] 请求参数{
+  "json": {
+    "noteId": "1733818403659"
+  }
+} 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 22]/[send] Response{
+  "responseTime": 65
+} 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/notesvr/cleanrecyclebin 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 21]/[send] 请求参数{
+  "json": {
+    "noteIds": [
+      "-1"
+    ]
+  }
+} 
+[2024-12-10 16:16:27] [INFO] [base_request.py]/[line: 22]/[send] Response{
+  "responseTime": 52
+} 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/v3/notesvr/user/336130547/home/startindex/0/rows/50/notes 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 21]/[send] 请求方法：GET 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 22]/[send] 请求参数{} 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 23]/[send] Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/v3/notesvr/web/getnotes/remind 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 21]/[send] 请求方法：POST 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 22]/[send] 请求参数{
+  "json": {
+    "startindex": 0,
+    "rows": 300,
+    "remindStartTime": 1732982400000,
+    "remindEndTime": 1735660800000
+  }
+} 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 23]/[send] Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/v3/notesvr/get/notegroup 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 21]/[send] 请求方法：POST 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 22]/[send] 请求参数{
+  "json": {
+    "excludeInValid": true,
+    "lastRequestTime": 0
+  }
+} 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 23]/[send] Response{
+  "noteGroups": [
+    {
+      "userId": "336130547",
+      "groupId": "d24f01a3b8492fed6aadca03c3e49277",
+      "groupName": "test",
+      "order": 0,
+      "valid": 1,
+      "updateTime": 1733810764309
+    }
+  ],
+  "requestTime": 1733818624778
+} 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/notesvr/web/getnotes/group 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 21]/[send] 请求方法：POST 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 22]/[send] 请求参数{
+  "json": {
+    "groupId": "d24f01a3b8492fed6aadca03c3e49277",
+    "rows": 50,
+    "startIndex": 0
+  }
+} 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 23]/[send] Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/notesvr/cleanrecyclebin 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 21]/[send] 请求方法：POST 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 22]/[send] 请求参数{
+  "json": {
+    "noteIds": [
+      "-1"
+    ]
+  }
+} 
+[2024-12-10 16:17:04] [INFO] [base_request.py]/[line: 23]/[send] Response{
+  "responseTime": 21
+} 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/v3/notesvr/user/336130547/home/startindex/0/rows/50/notes 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 21]/[send] 请求方法：GET 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 22]/[send] 请求参数{} 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 23]/[send] Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 24]/[send] ************************************************** 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/v3/notesvr/web/getnotes/remind 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 21]/[send] 请求方法：POST 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 22]/[send] 请求参数{
+  "json": {
+    "startindex": 0,
+    "rows": 300,
+    "remindStartTime": 1732982400000,
+    "remindEndTime": 1735660800000
+  }
+} 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 23]/[send] Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 24]/[send] ************************************************** 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/v3/notesvr/get/notegroup 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 21]/[send] 请求方法：POST 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 22]/[send] 请求参数{
+  "json": {
+    "excludeInValid": true,
+    "lastRequestTime": 0
+  }
+} 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 23]/[send] Response{
+  "noteGroups": [
+    {
+      "userId": "336130547",
+      "groupId": "d24f01a3b8492fed6aadca03c3e49277",
+      "groupName": "test",
+      "order": 0,
+      "valid": 1,
+      "updateTime": 1733810764309
+    }
+  ],
+  "requestTime": 1733818678980
+} 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 24]/[send] ************************************************** 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/notesvr/web/getnotes/group 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 21]/[send] 请求方法：POST 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 22]/[send] 请求参数{
+  "json": {
+    "groupId": "d24f01a3b8492fed6aadca03c3e49277",
+    "rows": 50,
+    "startIndex": 0
+  }
+} 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 23]/[send] Response{
+  "responseTime": 0,
+  "webNotes": []
+} 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 24]/[send] ************************************************** 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 20]/[send] 请求地址：http://note-api.wps.cn/notesvr/cleanrecyclebin 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 21]/[send] 请求方法：POST 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 22]/[send] 请求参数{
+  "json": {
+    "noteIds": [
+      "-1"
+    ]
+  }
+} 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 23]/[send] Response{
+  "responseTime": 20
+} 
+[2024-12-10 16:17:58] [INFO] [base_request.py]/[line: 24]/[send] ************************************************** 
